@@ -1,0 +1,2 @@
+all: mouse.o
+	mv mouse.o ..

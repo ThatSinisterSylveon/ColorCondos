@@ -1,0 +1,5 @@
+Engine.o: Engine.cpp Engine.h
+	g++ -c Engine.cpp
+	mv Engine.o ..
+clean:
+	rm *.o ColorCondos
